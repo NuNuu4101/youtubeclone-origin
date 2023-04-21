@@ -1,0 +1,48 @@
+body {
+  font-family: Arial;
+  height: 3000px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  right: 50px;
+  left: 50px;
+  top: 10px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.button-1 {
+  border: none;
+  background-color: rgb(45, 92, 194);
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.button-2 {
+  border: none;
+  background-color: lightgray;
+  color: black;
+  border-radius: 5px;
+  padding: 8px;
+}

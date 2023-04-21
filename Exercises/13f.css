@@ -1,0 +1,70 @@
+div{
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.tweet-container {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-pic-container {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.tweet-header {
+  flex: 1;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.user-name span {
+  color: rgb(145, 143, 143);
+  font-weight: normal;
+}
+
+.text-container {
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  border: lightgray solid 1px;
+  border-radius: 20px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.b-image {
+  background-color: lightgray;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.link-to {
+  color: rgb(145, 143, 143);
+  margin-top: 10px;
+}
+
+.link-content {
+  margin-top: 3px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}

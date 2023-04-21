@@ -1,0 +1,59 @@
+div {
+  font-family: Arial;
+  font-size: 16px;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-bottom: -15px;
+  margin-top: 25px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(49, 49, 49);
+  width: 80px;
+  align-items: center;
+}
+
+.server-container {
+  position: fixed;
+  left: 80px;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(72, 71, 71);
+  color: rgb(171, 169, 169);
+  width: 200px;
+  padding-left: 12px;
+  padding-top: 15px;
+  padding-right: 20px;
+}
+
+.channel-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info-channel {
+  color: white;
+  font-size: 13px;
+}
+
+.channel {
+  margin-bottom: 10px;
+}
+
+.add-people {
+  font-size: 28px;
+}

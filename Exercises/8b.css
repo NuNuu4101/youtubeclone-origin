@@ -1,0 +1,14 @@
+p{
+  width: 300px;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+button{
+  font-family: Arial;
+  font-size: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+}

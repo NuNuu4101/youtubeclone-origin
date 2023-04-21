@@ -1,0 +1,13 @@
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+p{
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}

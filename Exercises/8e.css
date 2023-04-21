@@ -1,0 +1,43 @@
+p{
+  font-family: Arial;
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+input{
+  font-family: Arial;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 400px;
+  border: none;
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+button{
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.request{
+  padding: 10px 10px 10px 10px;
+  background-color: black;
+  color: white;
+  margin-right: 15px;
+  border: none;
+  margin-top: 25px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.schedule{
+  padding: 11px 10px 11px 10px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.15);
+  color: black;
+  margin-top: 25px;
+  vertical-align: top;
+  cursor: pointer;
+}

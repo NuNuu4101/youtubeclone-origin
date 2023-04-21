@@ -1,0 +1,70 @@
+div{
+  font-family: Arial;
+}
+
+.flexbox{
+  width: 500px;
+  padding: 10px 15px 10px 15px;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.header{
+  font-size: 17px;
+  color: rgb(156, 155, 155);
+  margin-bottom: 20px;
+}
+
+.post-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.promotion-box {
+  flex:1
+}
+
+.profile-pic-space {
+  margin-right: 10px;
+}
+
+.profile-pic {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 22px;
+}
+
+.header-promote {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3px;
+  align-items: center;
+}
+
+.promote-object {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.promote-period {
+  font-size: 14px;
+  color: rgb(156, 155, 155);
+  float: right;
+}
+
+.info1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.info {
+  font-size: 15px;
+  color: rgb(156, 155, 155);
+}

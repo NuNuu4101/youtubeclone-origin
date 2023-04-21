@@ -1,0 +1,55 @@
+.profile-pic {
+  display: inline-block;
+  width: 50px;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile {
+  display: inline-block;
+}
+
+p{
+  margin: 0;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+button{
+  flex: 1;
+  background-color: rgb(37, 124, 217);
+  color: white;
+  border: none;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 7px 12px 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.profile-nickname,.profile-flex {
+  color: rgb(135, 131, 131);
+  font-size: 13px;
+  margin-bottom: 3px;
+}
